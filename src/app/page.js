@@ -10,7 +10,7 @@ export default function Home() {
         background: "whitesmoke",
       }}
     >
-      <div className="relative top-0 left-[45%] text-pink-700 text-sm xl:text-base text-right">
+      <div className="relative top-0 left-[20%] md:left-[30%] lg:left-[45%] text-pink-700 text-xs md:text-sm xl:text-base text-right">
         <p>to Peps Wauran, from Elroy</p>
         <p>n/12/2023</p>
       </div>
