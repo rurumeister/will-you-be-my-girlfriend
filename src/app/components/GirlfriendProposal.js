@@ -9,7 +9,7 @@ const GirlfriendProposal = () => {
   );
 
   const handleYesClick = () => {
-    setQuestionText("Yay! You're mine forever <3");
+    setQuestionText("Yay! Can't wait for this next chapter together <3");
     setGifSrc("https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif");
   };
 
@@ -33,11 +33,11 @@ const GirlfriendProposal = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-whitesmoke font-sans">
-      <h2 className="text-center text-2xl text-red-300 font-extrabold mb-4">
+      <h2 className="text-center text-2xl text-red-300 font-extrabold mb-4 w-[400px]">
         {questionText}
       </h2>
       <img className="h-auto w-full" alt="gif" src={gifSrc} />
-      <div className="flex justify-center mt-12">
+      <div className="flex justify-center mt-12 ">
         <button
           className="relative w-36 h-12 text-white text-lg rounded-full outline-none cursor-pointer shadow-md bg-red-300 border-2 border-red-400 mr-2"
           onClick={handleYesClick}
@@ -48,7 +48,7 @@ const GirlfriendProposal = () => {
           className="no-btn relative w-36 h-12 text-red-400 bg-white text-lg rounded-full outline-none cursor-pointer shadow-md border-2 border-red-400 ml-2"
           onMouseOver={handleNoMouseOver}
         >
-          No (try me)
+          No
         </button>
       </div>
     </div>
