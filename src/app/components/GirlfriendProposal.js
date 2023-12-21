@@ -33,7 +33,7 @@ const GirlfriendProposal = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-whitesmoke font-sans">
-      <h2 className="text-center text-2xl text-red-300 font-extrabold mb-4 w-[400px]">
+      <h2 className="text-center text-2xl text-red-300 font-extrabold mb-4 w-[200px] xl:w-[400px]">
         {questionText}
       </h2>
       <img className="h-auto w-full" alt="gif" src={gifSrc} />

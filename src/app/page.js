@@ -12,22 +12,21 @@ export default function Home() {
     >
       <div className="relative top-0 left-[20%] md:left-[30%] lg:left-[45%] text-pink-700 text-xs md:text-sm xl:text-base text-right">
         <p>to Peps Wauran, from Elroy</p>
-        <p>n/12/2023</p>
+        <p>21/12/2023</p>
       </div>
-
       <div className="flex text-slate-700 min-h-screen py-24">
         <div className=" flex flex-col justify-center gap-8 text-center">
           <h2 className="text-center text-3xl xl:text-5xl text-red-300 font-extrabold mb-4">
-            {`Hey babe, hope you liked what I've planned for you tonight. 💖`}
+            {`Hey babe, hope you liked the perfume making today and dinner that I planned for you tonight. 💖`}
           </h2>
           <p className="text-sm xl:text-base font-400 ">
-            {`From the moment we met, life has become so much brighter. We've
-            shared laughter, adventures, and quiet moments that mean the world
-            to me. Every day with you is a cherished memory, and every memory a
-            treasure that I hold close to my heart. As I look back at these
-            snapshots of the times we've spent together, I realize how
-            incredibly lucky I am to have you in my life. Scroll down to take a
-            walk down memory lane with me.`}
+            {`Thank you for saying 'yes' to journeying together more than friends and for creating a
+            safe space for me to be myself. With you life has become so much brighter. We've shared laughter,
+            adventures, tears and quiet moments that mean the world to me. Every day spent with you either
+            in real life, or physically apart is a memory I will treasure so dearly and hold close to
+            my heart. As I look back at these snapshots of the times we've spent together, I am reminded
+            of how incredibly blessed I am to have you in my life. Scroll down to take a walk down memory
+            lane with me.`}
           </p>
           <button
             type="button"
